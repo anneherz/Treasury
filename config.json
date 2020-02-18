@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://anneherz.github.io/logo/",
+    "link": "",
+    "text": "Anne Herzberg"
+  },
+  "text": {
+    "more": "A number of people recorded show a common affiliation to the treasury as attested in their title’s specification n.j pr HD: of the treasury. Thus it can be stated, that the prosopographic parameter in common is their institutional affiliation to the treasury. Altogether 85 treasury officials have been compiled in network I. They can be related to each other by 226 edges, which means that the average path length between network members is 1.427. The high density of network I has to be understood as the result of it’s dimension. That means, network members of smaller networks will, by virtue of the small numbers of members, have a greater chance of connection than someone embedded in a larger network. In a second step, all persons related to the treasury officials of network I have been incorporated as well. By this means the number of network members increased up to 376. It can be seen, that although the average path length between the nodes is still very short, the graph is less tight in terms of the density of connections. The 568 network members of the the network show a longer average path length. This can be interpreted by the fact, that the network has increased in terms of individual network members. But nevertheless, it seems very remarkable, that the average distance of the members of the treasury network, which comprises one third of the whole data collection, is only 4.836, that is, 3.836 ‘degrees of separation’. ",
+    "intro": "1-mode network of all persons affiliated to the treasury (pr HD) and all persons related to the treasury officials. For more details on a given node, click on it  ",
+    "title": "Treasury"
+  },
+  "legend": {
+    "edgeLabel": "persons related with persons",
+    "colorLabel": "green: treasury official; black: other official; pink: no title",
+    "nodeLabel": "persons"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "name"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
